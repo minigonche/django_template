@@ -38,16 +38,41 @@
         <p> Input 2: {{input2}} </p>
       </div>
 
-	<div class="container">
-      <div class="py-2 text-center">	      
-        <p class="lead"> </p>
-      </div>
-	</div>
-	
-      <div>
-      	<button type="button" class="btn btn-primary" onclick="location.href='{% url 'app1:index' %}'" >Go Back</button>
+  	<div class="container">
+        <div class="py-1 text-center">	      
+          <p class="lead"> </p>
+        </div>
+  	</div>
+
+  </div>
+
+      <div class="container">
+       <div class="text-left">
+        <h5>REST Response</h5>        
+     </div>
+
+      <div class="py-5">
+        <p> {{rest_response}}</p>
       </div>
     </div>
+
+
+
+
+    <div class="container">
+
+      <div class="py-1 text-center">        
+        <p class="lead"> </p>
+      </div>
+
+      <div>
+        <button type="button" class="btn btn-primary" onclick="location.href='{% url 'app1:index' %}'" >Go Back</button>
+      </div>
+
+    </div>
+	
+
+ 
 
   
 
